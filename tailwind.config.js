@@ -2,10 +2,9 @@
 module.exports = {
   content: ["*.html"],
   theme: {
-    extend: {
-      colors: {
-        'ijo-royo': '#15803d'
-      }
+    container: {
+      center: true,
+      padding: '50px',
     },
     fontFamily: {
       'roboto': 'Roboto',
